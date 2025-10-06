@@ -1,0 +1,49 @@
+# ============================================================================
+# BloomBotanics Agricultural Monitoring System - Requirements
+# Raspberry Pi 4 (1GB RAM) Compatible
+# Updated: October 2025
+# ============================================================================
+
+# Core Raspberry Pi GPIO and Hardware
+RPi.GPIO>=0.7.1
+gpiozero>=1.6.2
+
+# DHT22 Temperature/Humidity Sensor
+adafruit-circuitpython-dht>=3.7.0
+board>=1.0
+digitalio>=3.3.4
+busio>=5.2.0
+
+# Camera and Computer Vision (AI Detection)
+picamera2>=0.3.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+pillow>=9.0.0
+
+# YOLOv5 for AI Threat Detection (Optimized for 1GB RAM)
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+
+# LCD Display (I2C)
+RPLCD>=1.3.0
+smbus2>=0.4.0
+
+# GSM Module Communication (SIM800L)
+pyserial>=3.5
+
+# SPI for ADC (MCP3008 for analog sensors)
+spidev>=3.5
+
+# System Monitoring and Health
+psutil>=5.8.0
+
+# Data Management
+pandas>=1.3.0
+
+# Logging and Time
+python-dateutil>=2.8.0
+
+# Optional: Advanced Features
+# smbus>=1.1  # For I2C devices
+# RPi-DHT>=0.1.0  # Alternative DHT library
